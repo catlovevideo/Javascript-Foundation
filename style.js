@@ -83,4 +83,21 @@ compare('hello', 'hello');
 // to match the condition between two variable/value, ex : 9 == '9' is true,
 //														   undefined == null is true,
 // 														   9 == 9 is also true and so on..
+//
 */
+// var my_array = [2, 3, 4];
+// my_array.push(5); 
+// console.log(my_array.toString()); 
+
+// var pop = my_array.pop();
+// console.log(my_array.toString());
+// console.log(pop);
+
+// my_array.unshift(1);
+// console.log(my_array.toString());
+
+// var shift = my_array.shift();
+// console.log(my_array.toString());
+// console.log(shift);
+// we used a toString function to print the different value even after 
+// the push/pop statement executed. Otherwise the result would be the same like the last one.
